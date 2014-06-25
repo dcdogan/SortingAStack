@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		66A6FC51165E6FCB00130034 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66A6FC50165E6FCB00130034 /* main.cpp */; };
 		66A6FC53165E6FCB00130034 /* SortingAStack.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 66A6FC52165E6FCB00130034 /* SortingAStack.1 */; };
+		66A6FC601664B14A00130034 /* Implementations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66A6FC5E1664B14A00130034 /* Implementations.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		66A6FC4C165E6FCB00130034 /* SortingAStack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingAStack; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A6FC50165E6FCB00130034 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		66A6FC52165E6FCB00130034 /* SortingAStack.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SortingAStack.1; sourceTree = "<group>"; };
+		66A6FC59165E700A00130034 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		66A6FC5E1664B14A00130034 /* Implementations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Implementations.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				66A6FC50165E6FCB00130034 /* main.cpp */,
+				66A6FC59165E700A00130034 /* Header.h */,
+				66A6FC5E1664B14A00130034 /* Implementations.cpp */,
 				66A6FC52165E6FCB00130034 /* SortingAStack.1 */,
 			);
 			path = SortingAStack;
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A6FC51165E6FCB00130034 /* main.cpp in Sources */,
+				66A6FC601664B14A00130034 /* Implementations.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +214,7 @@
 				66A6FC58165E6FCB00130034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
